@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+ <html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/main.css" />
+
+  <script src="https://kit.fontawesome.com/4c51990d8f.js"></script>
+
+  <!-- Primary Meta Tags -->
+  <title>BiHjoGrafen</title>
+  <meta name="title" content="BiHjoGrafen" />
+  <meta name="description" content="Se senaste filmerna på bästa biografen i Hjo!" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://anschoolacc.github.io/Uppgift-2-En-biograf-sajt/" />
+  <meta property="og:site_name" content="BiHjoGrafen" />
+  <meta property="og:title" content="Boka filmer i Hjo" />
+  <meta property="og:description" content="Se senaste filmerna på bästa biografen i Hjo!" />
+  <meta property="og:image" content="assets\bihjografenlogo.png" />
+  <meta property="og:image:alt" content="Logo for BiHjoGrafen" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://anschoolacc.github.io/Uppgift-2-En-biograf-sajt/" />
+  <meta property="twitter:site_name" content="BiHjoGrafen" />
+  <meta property="twitter:title" content="Boka filmer i Hjo" />
+  <meta property="twitter:description" content="Se senaste filmerna på bästa biografen i Hjo!" />
+  <meta property="twitter:image" content="assets\bihjografenlogo.png" />
+  <meta property="twitter:image:alt" content="Logo for BiHjoGrafen" />
+</head>
+ <body>
+      <header class="Header">
+    <a class="Header__logo__a" href="/">
+      <img class="Header__logo" src="/static/assets/bihjografenlogo.png" alt="logo of the site" /></a>
+    <nav class="Header__nav">
+      <ul class="Header__nav__ul">
+        <li class="Header__nav__ul__li">
+          <a href="/">Filmer</a>
+        </li>
+        <li class="Header__nav__ul__li"><a href="">Biljetter</a></li>
+        <li class="Header__nav__ul__li">
+          <a href="aboutUs">Om oss</a>
+        </li>
+        <li class="Header__nav__ul__li">
+          <input class="Header__nav__ul__li__search-input" type="text" placeholder="Search..."
+          onfocus="this.placeholder = ''" 
+          onblur="this.placeholder = 'Search...'"/>
+          <i class="fas fa-search Header__nav__ul__li__search-icon">
+          </i>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <main class="content">
+        {{{body}}}
+    </main>
+      <footer class="footer">
+    <div class="footer__container">
+      <a class="footer__a" href="aboutUs">Om oss</a>
+      <a class="footer__a" href="#location">Plats</a>
+      <a class="footer__a" href="#facebook">Facebook</a>
+      <a class="footer__a" href="#twitter">Twitter</a>
+      <a class="footer__a" href="#instagram">Instagram</a>
+    </div>
+  </footer>
+ </body>
+ </html>
